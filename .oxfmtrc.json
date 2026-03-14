@@ -2,5 +2,9 @@
   "ignorePatterns": [],
   "singleQuote": true,
   "jsxSingleQuote": true,
-  "semi": false
+  "semi": false,
+  "sortImports": {
+    "newlinesBetween": true
+  },
+  "sortPackageJson": true
 }

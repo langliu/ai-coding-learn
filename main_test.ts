@@ -1,6 +1,7 @@
-import { assertEquals } from "@std/assert";
-import { add } from "./main.ts";
+import { expect, test } from 'bun:test'
 
-Deno.test(function addTest() {
-  assertEquals(add(2, 3), 5);
-});
+import { add } from './main.ts'
+
+test('add', () => {
+  expect(add(2, 3)).toBe(5)
+})

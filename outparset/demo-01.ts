@@ -1,15 +1,10 @@
-import { ChatDeepSeek } from "@langchain/deepseek";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from '@langchain/core/messages'
 import { StringOutputParser } from '@langchain/core/output_parsers'
+import { model } from '../utils/model.ts'
 
-console.log(Deno.env.get("DEEPSEEK_API_KEY"))
-const model = new ChatDeepSeek({
-  apiKey: Deno.env.get("DEEPSEEK_API_KEY")!,
-  model: "deepseek-chat",
-}).pipe(new StringOutputParser());
+console.log(process.env.DEEPSEEK_API_KEY)
+const chain = model.pipe(new StringOutputParser())
 
-const result = await model.invoke([
-  new HumanMessage("给我讲一个笑话")
-])
+const result = await chain.invoke([new HumanMessage('给我讲一个笑话')])
 
 console.log(result)

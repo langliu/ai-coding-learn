@@ -1,9 +1,11 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from '@langchain/openai'
+
+import { getRequiredEnv } from './env.ts'
 
 export const model = new ChatOpenAI({
-  apiKey: Deno.env.get("DEEPSEEK_API_KEY")!,
-  model: "deepseek-chat",
+  apiKey: getRequiredEnv('DEEPSEEK_API_KEY'),
+  model: 'deepseek-chat',
   configuration: {
-    baseURL: Deno.env.get("OPENAI_BASE_URL")!,
-  }
+    baseURL: getRequiredEnv('OPENAI_BASE_URL'),
+  },
 })

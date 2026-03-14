@@ -1,7 +1,7 @@
 import { JsonOutputParser } from '@langchain/core/output_parsers'
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { model } from "../utils/model.ts";
+import { ChatPromptTemplate } from '@langchain/core/prompts'
 
+import { model } from '../utils/model.ts'
 
 const outputParser = new JsonOutputParser()
 
@@ -29,6 +29,5 @@ const result = await chain.invoke({
 - tags: 字符串数组
 - score: 0 到 100 的数字`,
 })
-
 
 console.log(result)
