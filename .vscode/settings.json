@@ -1,6 +1,12 @@
 {
   "cSpell.words": [
+    "chromadb",
     "deepseek",
-    "langchain"
-  ]
+    "langchain",
+    "oxfmt",
+    "textsplitters",
+    "vectorstores"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode"
 }

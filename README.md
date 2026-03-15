@@ -2,5 +2,6 @@
 
 ## 向量数据库
 
-- [Facebook Faiss](https://github.com/facebookresearch/faiss)
+- [Chroma](https://www.trychroma.com/home)
 - [LanceDB](https://lancedb.com/)
+- [Facebook Faiss](https://github.com/facebookresearch/faiss)

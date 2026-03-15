@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun --watch main.ts",
+    "dev:chroma": "chroma run --path ./getting-started",
     "test": "bun test",
     "demo:01": "bun run outparset/demo-01.ts",
     "quickstart": "bun run quickstart.ts",
