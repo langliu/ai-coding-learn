@@ -3,7 +3,6 @@ import { MemoryVectorStore } from '@langchain/classic/vectorstores/memory'
 import { OpenAIEmbeddings } from '@langchain/openai'
 import { RecursiveCharacterTextSplitter } from '@langchain/textsplitters'
 
-
 const loader = new TextLoader('data/kong.txt')
 const docs = await loader.load()
 const embeddings = new OpenAIEmbeddings({

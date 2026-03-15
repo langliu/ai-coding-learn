@@ -1,5 +1,6 @@
 import { HumanMessage } from '@langchain/core/messages'
 import { StringOutputParser } from '@langchain/core/output_parsers'
+
 import { model } from '../utils/model.ts'
 
 console.log(process.env.DEEPSEEK_API_KEY)

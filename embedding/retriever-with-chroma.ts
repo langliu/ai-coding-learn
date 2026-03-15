@@ -3,7 +3,6 @@ import { OpenAIEmbeddings } from '@langchain/openai'
 import { RecursiveCharacterTextSplitter } from '@langchain/textsplitters'
 import { ChromaClient } from 'chromadb'
 
-
 const loader = new TextLoader('data/kong.txt')
 const docs = await loader.load()
 const embeddings = new OpenAIEmbeddings({
@@ -23,7 +22,7 @@ const splitDocs = await splitter.splitDocuments(docs)
 const client = new ChromaClient({
   host: 'localhost',
   port: 8000,
-  ssl: false
+  ssl: false,
 })
 
 const collection = await client.getOrCreateCollection({
@@ -41,7 +40,6 @@ await collection.add({
 const queryEmbedding = await embeddings.embedQuery('茴香豆是做什么用的')
 const results = await collection.query({
   queryEmbeddings: [queryEmbedding],
-  nResults: 2
+  nResults: 2,
 })
 console.log(results)
-
