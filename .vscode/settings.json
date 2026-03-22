@@ -1,18 +1,32 @@
 {
   "cSpell.words": [
     "chromadb",
+    "deepagents",
     "deepseek",
+    "dotenv",
     "langchain",
     "oxfmt",
+    "tavily",
     "textsplitters",
-    "vectorstores"
+    "vectorstores",
   ],
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "oxc.oxc-vscode",
   "[typescript]": {
-    "editor.defaultFormatter": "oxc.oxc-vscode"
+    "editor.defaultFormatter": "oxc.oxc-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "oxc.oxc-vscode"
-  }
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports": "explicit",
+    },
+  },
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit",
+  },
 }
