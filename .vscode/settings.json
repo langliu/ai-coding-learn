@@ -1,6 +1,5 @@
 {
   "cSpell.words": ["chromadb"],
-  "deno.enablePaths": ["./deno.json"],
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
@@ -14,5 +13,6 @@
   "notebook.formatOnSave.enabled": true,
   "notebook.codeActionsOnSave": {
     "source.fixAll": "explicit"
-  }
+  },
+  "deno.unstable": ["jupyter"]
 }
