@@ -1,5 +1,9 @@
 {
-  "cSpell.words": ["chromadb"],
+  "cSpell.words": [
+    "chromadb",
+    "langchain",
+    "textsplitters"
+  ],
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
