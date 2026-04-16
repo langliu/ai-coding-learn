@@ -1,0 +1,110 @@
+{
+  "entry_url": "https://docs.python.org/zh-cn/3.14/tutorial/index.html",
+  "requested_count": 50,
+  "actual_count": 17,
+  "generated_at": "2026-04-15T01:49:13.174Z",
+  "pages": [
+    {
+      "order": 1,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/index.html",
+      "local_html_path": "pages/tutorial-index.html",
+      "title": "Python 教程"
+    },
+    {
+      "order": 2,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/appetite.html",
+      "local_html_path": "pages/appetite.html",
+      "title": "1. 课前甜点"
+    },
+    {
+      "order": 3,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/interpreter.html",
+      "local_html_path": "pages/interpreter.html",
+      "title": "2. 使用 Python 的解释器"
+    },
+    {
+      "order": 4,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/introduction.html",
+      "local_html_path": "pages/introduction.html",
+      "title": "3. Python 速览"
+    },
+    {
+      "order": 5,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/controlflow.html",
+      "local_html_path": "pages/controlflow.html",
+      "title": "4. 更多控制流工具"
+    },
+    {
+      "order": 6,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/datastructures.html",
+      "local_html_path": "pages/datastructures.html",
+      "title": "5. 数据结构"
+    },
+    {
+      "order": 7,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/modules.html",
+      "local_html_path": "pages/modules.html",
+      "title": "6. 模块"
+    },
+    {
+      "order": 8,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/inputoutput.html",
+      "local_html_path": "pages/inputoutput.html",
+      "title": "7. 输入与输出"
+    },
+    {
+      "order": 9,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/errors.html",
+      "local_html_path": "pages/errors.html",
+      "title": "8. 错误和异常"
+    },
+    {
+      "order": 10,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/classes.html",
+      "local_html_path": "pages/classes.html",
+      "title": "9. 类"
+    },
+    {
+      "order": 11,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/stdlib.html",
+      "local_html_path": "pages/stdlib.html",
+      "title": "10. 标准库概览"
+    },
+    {
+      "order": 12,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/stdlib2.html",
+      "local_html_path": "pages/stdlib2.html",
+      "title": "11. 标准库简介 —— 第二部分"
+    },
+    {
+      "order": 13,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/venv.html",
+      "local_html_path": "pages/venv.html",
+      "title": "12. 虚拟环境和包"
+    },
+    {
+      "order": 14,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/whatnow.html",
+      "local_html_path": "pages/whatnow.html",
+      "title": "13. 接下来？"
+    },
+    {
+      "order": 15,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/interactive.html",
+      "local_html_path": "pages/interactive.html",
+      "title": "14. 交互式编辑和编辑历史"
+    },
+    {
+      "order": 16,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/floatingpoint.html",
+      "local_html_path": "pages/floatingpoint.html",
+      "title": "15. 浮点算术：问题和限制"
+    },
+    {
+      "order": 17,
+      "source_url": "https://docs.python.org/zh-cn/3.14/tutorial/appendix.html",
+      "local_html_path": "pages/appendix.html",
+      "title": "16. 附录"
+    }
+  ]
+}
